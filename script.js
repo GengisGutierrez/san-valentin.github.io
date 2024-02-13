@@ -11,22 +11,13 @@ let messages = [
   'Mira el otro botón'
 ]
 
-// var myAudio = document.getElementById("myAudio");
-// var playPauseButton = document.getElementById("playPauseButton");
-// var volumeControl = document.getElementById("volumeControl");
-
-// function togglePlayPause() {
-//   if (myAudio.paused) {
-//       myAudio.play();
-//       playPauseButton.src = "./assets/pause.png";
-//   } else {
-//       myAudio.pause();
-//       playPauseButton.src = "./assets/play.png";
-//   }
-// }
-// function changeVolume() {
-//   myAudio.volume = volumeControl.value;
-// }
+let sound = new Audio('./assets/ladyfingers.mp3');
+playBtn.addEventListener('click', ()=>{
+  sound.play();
+})
+pauseBtn.addEventListener('click', ()=>{
+  sound.pause();
+})
 
 
 
