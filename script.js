@@ -18,10 +18,10 @@ var volumeControl = document.getElementById("volumeControl");
 function togglePlayPause() {
   if (myAudio.paused) {
       myAudio.play();
-      playPauseButton.src = "assets/pause.png";
+      playPauseButton.src = "./assets/pause.png";
   } else {
       myAudio.pause();
-      playPauseButton.src = "assets/play.png";
+      playPauseButton.src = "./assets/play.png";
   }
 }
 
