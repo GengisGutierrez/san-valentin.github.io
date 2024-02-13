@@ -11,23 +11,22 @@ let messages = [
   'Mira el otro botón'
 ]
 
-var myAudio = document.getElementById("myAudio");
-var playPauseButton = document.getElementById("playPauseButton");
-var volumeControl = document.getElementById("volumeControl");
+// var myAudio = document.getElementById("myAudio");
+// var playPauseButton = document.getElementById("playPauseButton");
+// var volumeControl = document.getElementById("volumeControl");
 
-function togglePlayPause() {
-  if (myAudio.paused) {
-      myAudio.play();
-      playPauseButton.src = "./assets/pause.png";
-  } else {
-      myAudio.pause();
-      playPauseButton.src = "./assets/play.png";
-  }
-}
-
-function changeVolume() {
-  myAudio.volume = volumeControl.value;
-}
+// function togglePlayPause() {
+//   if (myAudio.paused) {
+//       myAudio.play();
+//       playPauseButton.src = "./assets/pause.png";
+//   } else {
+//       myAudio.pause();
+//       playPauseButton.src = "./assets/play.png";
+//   }
+// }
+// function changeVolume() {
+//   myAudio.volume = volumeControl.value;
+// }
 
 
 
