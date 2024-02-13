@@ -83,6 +83,20 @@ body {
   }
 }
 
+#playBtn {
+  background: url('./assets/play.png') no-repeat;
+  width: 50px; /* Ajusta el tamaño según tu necesidad */
+  height: 50px; /* Ajusta el tamaño según tu necesidad */
+  border: none;
+}
+
+#pauseBtn {
+  background: url('./assets/pause.png') no-repeat;
+  width: 50px; /* Ajusta el tamaño según tu necesidad */
+  height: 50px; /* Ajusta el tamaño según tu necesidad */
+  border: none;
+}
+
 #message {
   position: fixed;
   top: 0;
